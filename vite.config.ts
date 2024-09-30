@@ -21,7 +21,7 @@ export default defineConfig({
       usePolling: true
     }
   },
-  base: '/torontoheartcon/',
+  base: '/',
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
