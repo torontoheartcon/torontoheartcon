@@ -29,8 +29,8 @@ const router = createRouter({
       component: ContactUs
     },
     {
-      path: '/photograhers',
-      name: 'Photograhers',
+      path: '/photographers',
+      name: 'Photographers',
       component: Photograhers
     }
   ]

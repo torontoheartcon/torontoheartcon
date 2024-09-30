@@ -60,11 +60,11 @@ onMounted(() => {
           Cosplay Guests
         </div>
       </button>
-      <button @click="$router.push('/photograhers')">
+      <button @click="$router.push('/photographers')">
         <div
           class="text-white font-black hover:drop-shadow-lg  xs:[text-shadow:_0_15px_30px_rgb(99_102_241_/_0.8)] [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
         >
-          Photograhers
+        Photographers
         </div>
       </button>
       <!-- <button @click="$router.push('/')">
