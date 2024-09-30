@@ -11,27 +11,27 @@ const router = createRouter({
     {
       path: '/',
       name: 'Home',
-      component: Home
+      component: () => import('../views/home.vue') // Home
     },
     {
       path: '/about',
       name: 'About Us',
-      component: AboutUs
+      component: () => import('../views/AboutUS.vue') //AboutUs
     },
     {
       path: '/cosplay-guests',
       name: 'Cosplay Guest',
-      component: CosplayGuests
+      component: () => import('../views/cosplayGuests.vue') // CosplayGuests
     },
     {
       path: '/contact-us',
       name: 'Contact Us',
-      component: ContactUs
+      component: () => import('../views/ContactUs.vue') // ContactUs
     },
     {
       path: '/photographers',
       name: 'Photographers',
-      component: Photograhers
+      component: () => import('../views/Photograhers.vue') // Photographers
     }
   ]
 })
