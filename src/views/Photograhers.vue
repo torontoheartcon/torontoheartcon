@@ -3,12 +3,12 @@
     <div
       class="flex items-center justify-center font-bold xs:text-[4.5rem] lg:text-[3rem]  xs:[text-shadow:_0_15px_30px_rgb(99_102_241_/_0.8)] [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
     >
-      Photograhers
+      Photographers
     </div>
     <div
       class="px-[5rem] text-center font-bold xs:text-[3rem] xs:font-400 lg:text-[1.6rem]  xs:[text-shadow:_0_15px_30px_rgb(99_102_241_/_0.8)] [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
     >
-      We invited these photograhers coming to Toronto Hreatcon!
+      We invited these photographers coming to Toronto Hreatcon!
     </div>
     <div class="px-[5rem] lg:px-[8rem] py-12 grid lg:grid-cols-2 gap-6">
       <template v-for="photograherData of photograherDatas" v-bind:key="photograherData">
