@@ -8,7 +8,7 @@
     <div
       class="px-[5rem] text-center font-black xs:text-[4rem] sm:text-[3.5rem] lg:text-[1.5rem] xs:[text-shadow:_0_15px_30px_rgb(99_102_241_/_0.8)] [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
     >
-      We are organizers in the Toronto Hreatcon.
+      We are organizers in the Toronto Heartcon.
     </div>
     <div class="px-[5rem] lg:px-[8rem] py-12 grid lg:grid-cols-2 gap-6">
       <template v-for="founderData of founderDatas" v-bind:key="founderData">

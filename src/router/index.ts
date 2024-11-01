@@ -19,9 +19,14 @@ const router = createRouter({
       component: () => import('../views/AboutUS.vue') //AboutUs
     },
     {
-      path: '/cosplay-guests',
-      name: 'Cosplay Guest',
+      path: '/guests',
+      name: 'Guest',
       component: () => import('../views/cosplayGuests.vue') // CosplayGuests
+    },
+    {
+      path: '/vendors',
+      name: 'Vendor',
+      component: () => import('../views/vendor.vue') // CosplayGuests
     },
     {
       path: '/contact-us',

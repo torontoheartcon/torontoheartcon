@@ -38,7 +38,7 @@ onMounted(() => {
     <div class="flex items-center justify-center">
       <img class="h-[180px]" src="/icon.png" />
     </div>
-    <div class="py-2 xs:text-[4rem] lg:text-[1.5rem] grid grid-cols-1 lg:grid-cols-7 gap-3 lg:px-[10rem]">
+    <div class="py-2 xs:text-[4rem] lg:text-[1.5rem] grid grid-cols-1 lg:grid-cols-8 gap-3 lg:px-[6rem]">
       <button @click="$router.push('/')">
         <div
           class="text-white font-black hover:drop-shadow-lg  xs:[text-shadow:_0_15px_30px_rgb(99_102_241_/_0.8)] [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
@@ -53,11 +53,11 @@ onMounted(() => {
           About Us
         </div>
       </button>
-      <button @click="$router.push('/cosplay-guests')">
+      <button @click="$router.push('/guests')">
         <div
           class="text-white font-black hover:drop-shadow-lg  xs:[text-shadow:_0_15px_30px_rgb(99_102_241_/_0.8)] [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
         >
-          Cosplay Guests
+          Guests
         </div>
       </button>
       <button @click="$router.push('/photographers')">
@@ -67,13 +67,13 @@ onMounted(() => {
         Photographers
         </div>
       </button>
-      <!-- <button @click="$router.push('/')">
+      <button @click="$router.push('/vendors')">
         <div
           class="text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
         >
           Venders
         </div>
-      </button>-->
+      </button>
       <button @click="$router.push('/contact-us')">
         <div
           class="text-white font-black hover:drop-shadow-lg  xs:[text-shadow:_0_15px_30px_rgb(99_102_241_/_0.8)] [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
