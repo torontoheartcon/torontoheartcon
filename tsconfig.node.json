@@ -6,7 +6,8 @@
     "cypress.config.*",
     "nightwatch.conf.*",
     "playwright.config.*",
-    "tailwind.config.*"
+    "tailwind.config.*",
+    "src/**/*.{vue,js,ts,jsx,tsx}"
   ],
   "compilerOptions": {
     "composite": true,
