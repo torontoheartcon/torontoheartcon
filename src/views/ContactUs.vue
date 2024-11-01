@@ -9,7 +9,7 @@
       <div
         class="font-bold xs:text-[3.6rem] lg:text-[1.2rem] xs:[text-shadow:_0_15px_30px_rgb(99_102_241_/_0.8)]  [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
       >
-        Feel free to comments and give any suggests for better in Toronto Hreatcon and the website.
+        Feel free to comments and give any suggests for better in Toronto Heartcon and the website.
       </div>
       <div
         class="font-bold xs:text-[3.6rem] lg:text-[1.2rem] xs:[text-shadow:_0_15px_30px_rgb(99_102_241_/_0.8)]  [text-shadow:_0_8px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
