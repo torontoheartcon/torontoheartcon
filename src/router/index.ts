@@ -5,6 +5,7 @@ import ContactUs from '../views/ContactUs.vue'
 import Guests from '../views/cosplayGuests.vue'
 import Photograhers from '../views/Photograhers.vue'
 import Vendors from '../views/vendor.vue'
+import Gallery from '../views/gallery.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -38,6 +39,11 @@ const router = createRouter({
       path: '/photographers',
       name: 'Photographers',
       component: Photograhers // Photographers
+    },
+    {
+      path: '/gallerys',
+      name: 'Gallerys',
+      component: Gallery// Photographers
     }
   ]
 })

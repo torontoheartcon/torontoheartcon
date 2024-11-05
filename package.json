@@ -12,7 +12,7 @@
     "type-check": "vue-tsc --build --force",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
     "format": "prettier --write src/",
-    "predeploy" : "npm run build",
+    "predeploy": "npm run build",
     "test": "vite test"
   },
   "dependencies": {
@@ -22,6 +22,7 @@
     "@fortawesome/free-regular-svg-icons": "^6.6.0",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
     "@fortawesome/vue-fontawesome": "^3.0.8",
+    "flowbite": "^2.5.2",
     "pinia": "^2.1.7",
     "vite-plugin-pwa": "^0.2.1",
     "vue": "^3.4.29",
