@@ -74,6 +74,13 @@ onMounted(() => {
           Venders
         </div>
       </button>
+      <button @click="$router.push('/gallerys')">
+        <div
+          class="text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
+        >
+          Gallery
+        </div>
+      </button>
       <button @click="$router.push('/contact-us')">
         <div
           class="text-white font-black hover:drop-shadow-lg  xs:[text-shadow:_0_15px_30px_rgb(99_102_241_/_0.8)] [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
@@ -88,13 +95,13 @@ onMounted(() => {
           Our Instagram
         </div>
       </button>
-      <button @click="GetAdmission(GetAdmissionURL)">
+    <!--  <button @click="GetAdmission(GetAdmissionURL)">
         <div
           class="text-white font-black hover:drop-shadow-lg [text-shadow:_0_5px_10px_rgb(99_102_241_/_0.8)] hover:[text-shadow:_0_10px_15px_#b5edff]"
         >
           Get Admission
         </div>
-      </button>
+      </button>-->
     </div>
 
     <div>
